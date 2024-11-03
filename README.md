@@ -18,7 +18,8 @@ The goal is to develop a predictive model that can classify patients at risk of 
 
    - **Dataset**: Use a public dataset such as:
       - **MIMIC-III** (Medical Information Mart for Intensive Care): A free and open dataset containing anonymized data for ICU patients.
-      - **CMS Hospital Readmissions**: Contains data about readmission rates for hospitals across the United States.
+        - **CMS Hospital Readmissions**: Contains data about readmission rates for hospitals across the United States.
+          - https://data.cms.gov/provider-data/dataset/9n3s-kdb3#data-dictionary
    - **Data Storage**: Store the dataset on a distributed storage solution, such as Amazon S3, HDFS, or Google Cloud Storage, to allow PySpark to process it efficiently.
 
 #### 2. **Data Processing with PySpark ETL Pipeline**
